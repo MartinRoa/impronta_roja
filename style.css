@@ -1,0 +1,241 @@
+/* Eliminar decoraciones por defecto */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+/* Fuente */
+
+body{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Background Image */
+
+#bodyStyle{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-weight: 800;
+}
+
+/* Header */
+
+.headerStyle{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(antiquewhite, rgb(230, 182, 121), rgb(230, 153, 53));
+    padding-bottom: 1.5rem;
+    
+}
+
+/* Logo */
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo__image{
+    width: 20rem;
+}
+
+/* Navegacion */
+
+.nav__prop{
+    display: flex;
+}
+
+.nav__ul{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/* Titulos estilos */
+
+.title{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.boxTitle{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.titleFormat{
+    font-size: 3.5rem;
+    color: #801929;
+    text-align: center;
+}
+
+.textDecoration{
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.subtitleFormat{
+    font-family: 'Roboto', sans-serif;
+    color: #801929;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subsubtitleFormat{
+    font-size: 2rem;
+}
+
+/* Information Card */
+.informationCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informationCard__text{
+    margin-right: 1rem;
+}
+
+.informationCard__image{
+
+}
+
+.image__cervezas{
+    width: 50rem;
+}
+
+/* Cervezas*/
+
+#cervezas{
+
+}
+
+.cervezas{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+}
+
+.cervezaRubia{
+    color: #b6d81d;
+    text-align: center;
+}
+
+.cervezaRoja{
+    color: rgb(158, 20, 20);
+    text-align: center;
+    
+}
+
+.cervezaNegra{
+    color:rgb(39, 35, 35);
+    text-align: center;
+}
+
+.imageRubia{
+    width: 100%;
+    height: 100%;
+}
+
+.imageRoja{
+    width: 100%;
+    height: 100%;
+}
+
+.imageNegra{
+    max-width: 100%;
+}
+
+.boxRubia{
+    justify-content: stretch;
+}
+
+.boxRoja{
+    justify-content: stretch;
+}
+
+.boxNegra{
+    justify-content: stretch;
+}
+
+.boxRubia__image{
+    justify-content: stretch;
+}
+
+.boxRoja__image{
+    justify-content: stretch;
+}
+
+.boxNegra__image{
+    justify-content: stretch;
+}
+
+/* Footer */
+
+.footerStyle{
+    background-image: linear-gradient(rgb(230, 153, 53), rgb(230, 182, 121), antiquewhite);
+}
+
+.footerNav{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footerImages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Merchandising */
+
+.merchImages{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  alineador */
+
+.alingItems{
+    color: #801929;
+    text-align: center;
+    margin: 1rem;
+}
+
+.titleFormat3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+.titleFormat2{
+    color: rgb(139, 0, 0);
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
