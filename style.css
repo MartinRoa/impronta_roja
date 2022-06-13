@@ -119,19 +119,11 @@ body{
     margin-right: 1rem;
 }
 
-.informationCard__image{
-
-}
-
 .image__cervezas{
     width: 50rem;
 }
 
 /* Cervezas*/
-
-#cervezas{
-
-}
 
 .cervezas{
     display: grid;
