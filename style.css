@@ -133,6 +133,12 @@ body{
 
 .image__cervezas{
     width: 50rem;
+    animation-name: rotateMe;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: initial;
+    animation-delay: 2s;
+    animation-direction: alternate;
 }
 
 /* Cervezas*/
@@ -242,4 +248,22 @@ body{
     color: rgb(139, 0, 0);
     background-color: rgba(0, 0, 0, 0.473);
     text-align: center;
+}
+
+@keyframes rotateMe {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
