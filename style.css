@@ -241,3 +241,11 @@ body{
 .card{
     background-color: rgb(247, 203, 146);
 }
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+.card-text{
+    padding-bottom: 2rem;
+}
