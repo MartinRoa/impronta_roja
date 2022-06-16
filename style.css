@@ -10,10 +10,10 @@ a{
     color: #000000;
     text-decoration: none;
 }
-
+/* 
 img{
     width: 100%;
-}
+} */
 /* Fuente */
 
 body{
@@ -230,4 +230,14 @@ body{
     color: rgb(139, 0, 0);
     background-color: rgba(0, 0, 0, 0.473);
     text-align: center;
+}
+
+/* bootstrap */
+
+.card-img-top{
+    height: 25rem;
+}
+
+.card{
+    background-color: rgb(247, 203, 146);
 }
