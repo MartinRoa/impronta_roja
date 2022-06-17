@@ -249,3 +249,7 @@ body{
 .card-text{
     padding-bottom: 2rem;
 }
+
+.card-image{
+    max-height: 100%;
+}
