@@ -250,6 +250,7 @@ body{
     padding-bottom: 2rem;
 }
 
-.card-image{
-    max-height: 100%;
+.register-style{
+    color: rgb(207, 96, 23);
+    text-align: center;
 }
