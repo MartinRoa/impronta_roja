@@ -109,20 +109,6 @@ body{
     font-size: 2rem;
 }
 
-/* Information Card */
-.informationCard{
-    display: flex;
-    justify-content: space-between;
-}
-
-.informationCard__text{
-    margin-right: 1rem;
-}
-
-.image__cervezas{
-    width: 50rem;
-}
-
 /* Cervezas*/
 
 .cervezas{
@@ -230,4 +216,27 @@ body{
     color: rgb(139, 0, 0);
     background-color: rgba(0, 0, 0, 0.473);
     text-align: center;
+}
+
+/* nuevos */
+
+.infoCard{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.infoCard-card1{
+    width: 50%;
+    text-align: center;
+}
+
+.cover__img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.textDecoration__info{
+    font-size: 1.2rem;
 }
