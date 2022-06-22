@@ -9,12 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Impronta Roja</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body id="bodyStyle">
     <header class="headerStyle">
         <div class="header__logo">
             <a href="../index.html">
-                <img class="logo__image" src="../img/logo.svg" alt="logo">
+                <img class="logo__image animate__animated animate__rubberBand" src="../img/logo.svg" alt="logo">
             </a>
         </div>
         <nav class="navProp">
@@ -41,19 +45,31 @@
             </article>
         </section>
      <!-- Imagenes de productos -->
-     <section>
-         <div class="merchImages">
-             <div>
-                <img src="../img/rem1.jpg" alt="remera1">
-             </div>
-             <div>
-                <img src="../img/rem2.jpg" alt="remera2">
-             </div>
-             <div >
-                <img src="../img/rem3.jpg" alt="remera3">
-             </div>    
-         </div>
-     </section>
+    <section id="merchandising">
+        <article class="tarjet__container">
+            <div>
+                <p class="textCenter">Lorem ipsum dolor sit.</p>
+                <picture>
+                    <img class="image__tarjet" src="../img/rem1.jpg" alt="una remera negra que dice beer me bro">
+                </picture>
+                <p class="textCenter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ducimus.</p>
+            </div>
+            <div>
+                <p class="textCenter">Lorem, ipsum dolor.</p>
+                <picture>
+                    <img class="image__tarjet" src="../img/rem2.jpg" alt="una remera de burbujas de cerveza">
+                </picture>
+                <p class="textCenter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, facilis id itaque autem nulla repellendus!</p>
+            </div>
+            <div>
+                <p class="textCenter">Lorem ipsum dolor sit.</p>
+                <picture>
+                    <img class="image__tarjet" src="../img/rem3.jpg" alt="remera negra in craft beer we trust">
+                </picture>
+                <p class="textCenter">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </article>
+    </section>
     </div>
     <footer class="footerStyle">
         <section>
@@ -69,10 +85,10 @@
             <article>
                 <div class="footerImages">
                     <div>
-                        <img src="../img/fbb.png" alt="fb">
+                        <img src="../img/fbb.png" alt="facebook">
                     </div>
                     <div>
-                        <img src="../img/ig.png" alt="ig">
+                        <img src="../img/ig.png" alt="instagram">
                     </div>
                 </div>
         </article>
