@@ -118,10 +118,6 @@ body{
 
 /* tarjetas, color titulo cervezas*/
 
-.cervezas{
-
-}
-
 .img__app{
     padding-left: 1.5rem;
     animation-name: rotateMe;
@@ -273,7 +269,4 @@ body{
         justify-content: center;
     }
 
-    .container__tarjet{
-       /*  align-items: center; */
-    }
 }
