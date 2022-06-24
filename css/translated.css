@@ -1,0 +1,52 @@
+/* MISC */
+/* PARTIALS */
+/* Header */
+.headerStyle {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(antiquewhite, #e6b679, #e69935);
+  padding-bottom: 1.5rem; }
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; }
+
+.logo__image {
+  width: 20rem; }
+
+/* Navegacion */
+.nav__prop {
+  display: flex; }
+
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+/* Logo */
+/* Footer */
+.footerStyle {
+  background-image: linear-gradient(#e69935, #e6b679, antiquewhite); }
+
+.footerNav {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around; }
+
+.footerImages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* VIEWS */
+/* Logo */
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; }
+
+.logo__image {
+  width: 20rem; }
