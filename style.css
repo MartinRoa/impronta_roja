@@ -202,6 +202,8 @@ ul{
     
 }
 
+/* modificaciones */
+
 .cervezaNegra{
     color: var(--special-three);
     -webkit-text-stroke: var(--border-white);
@@ -243,6 +245,7 @@ ul{
     display: flex;
     justify-content: space-around;
 }
+
 .footerImages{
     display: flex;
     justify-content: space-around;

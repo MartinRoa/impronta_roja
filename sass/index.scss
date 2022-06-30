@@ -1,0 +1,25 @@
+/* MISC */
+@import "./misc/variables";
+@import "./misc/mixins";
+@import "./misc/normalize";
+
+/* PARTIALS */
+@import "./partials/header";
+@import "./partials/footer";
+
+/* VIEWS */
+@import "./views/home";
+@import "./views/contacto";
+@import "./views/nosotros";
+
+/* Logo */
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo__image{
+    width: 20rem;
+}
