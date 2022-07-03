@@ -1,34 +1,39 @@
-/* Header */
+#bodyStyle{
+    background-image: url(../img/fondo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: $text-color;
+    font-weight: 800;
+    -webkit-text-stroke: 0.4px rgb(27, 27, 27);
 
-.headerStyle{
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(antiquewhite, rgb(230, 182, 121), rgb(230, 153, 53));
-    padding-bottom: 1.5rem;
+    .headerStyle{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(antiquewhite, rgb(230, 182, 121), rgb(230, 153, 53));
+        padding-bottom: $spacing-small;
+
+        .header__logo{
+            display: flex;
+            justify-content: center;
+            margin-bottom: $spacing-small;
+
+            .logo__image{
+                width: 20rem;
+            }
+            
+        }
+        .menu{
+            display: flex;
+            justify-content: space-around;
+            text-transform: uppercase;
+            font-size: $text-xsmall;
+    
+            .menu__link:hover{
+                background-color:rgba(252, 71, 0, 0.747);
+                transition: background-color 1s;
+            }
+        }
+    }
 }
-.header__logo{
-display: flex;
-justify-content: center;
-margin-bottom: 1.5rem;
-}
-.logo__image{
-    width: 20rem;
-}
-
-/* Navegacion */
-
-.nav__prop{
-    display: flex;
-}
-
-.nav__ul{
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-/* Logo */
-
-
-

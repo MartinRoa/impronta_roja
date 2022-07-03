@@ -30,28 +30,28 @@
 
 /* Normalize */
 
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 /* html{
     font-size: 62.5%;
 }
  */
-a{
+/* a{
     color: var(--secondary);
     text-decoration: none;
 }
 
 img{
     width: 100%;
-}
+} */
 
 /* Fuente */
 
-body{
+/* body{
     padding-left: var(--spacing-large);
     padding-right: var(--spacing-large);
     overflow-x: hidden;
@@ -61,11 +61,11 @@ body{
 
 ul{
     list-style-type: none;
-}
+} */
 
 /* Background Image */
 
-#bodyStyle{
+/* #bodyStyle{
     background-image: url(img/fondo2.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -74,18 +74,17 @@ ul{
     color: var(--text-color);
     font-weight: 800;
     -webkit-text-stroke: 0.4px rgb(27, 27, 27);
-}
+} */
 
 /* Header */
 
-.headerStyle{
+/* .headerStyle{
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(antiquewhite, rgb(230, 182, 121), rgb(230, 153, 53));
     padding-bottom: var(--spacing-small);
 }
 
-/* Logo */
 
 .header__logo{
     display: flex;
@@ -95,7 +94,7 @@ ul{
 
 .logo__image{
     width: 20rem;
-}
+} */
 
 /* Navegacion */
 
@@ -222,10 +221,6 @@ ul{
     align-items: center;
 }
 
-/* .tarjet__picture{
-
-} */
-
 .image__tarjet{
     width: 24rem;
     height: 29rem;
@@ -235,7 +230,7 @@ ul{
 
 /* Footer */
 
-.footerStyle{
+/* .footerStyle{
     background-image: linear-gradient(rgb(230, 153, 53), rgb(230, 182, 121), antiquewhite);
     color: var(--secondary);
 }
@@ -252,7 +247,7 @@ ul{
     margin-top: var(--spacing-medium);
     margin-bottom: var(--spacing-medium);
 }
-
+ */
 /* Merchandising */
 
 .merchImages{
@@ -273,8 +268,8 @@ ul{
     color: #d6d6d6;
     background-color: rgba(0, 0, 0, 0.473);
     text-align: center;
-
 }
+
 .titleFormat2{
     color: var(--primary);
     background-color: rgba(0, 0, 0, 0.473);

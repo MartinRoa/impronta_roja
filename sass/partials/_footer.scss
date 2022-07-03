@@ -1,18 +1,23 @@
-
-/* Footer */
-
 .footerStyle{
     background-image: linear-gradient(rgb(230, 153, 53), rgb(230, 182, 121), antiquewhite);
-}
+    color: $secondary;
 
-.footerNav{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-}
-.footerImages{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    .footerNav{
+        margin-top: $spacing-medium;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .subsubtitleFormat{
+        font-size: $text-small;
+        margin-top: $spacing-xsmall;
+        margin-bottom: $spacing-xsmall;
+    }
+
+    .footerImages{
+        display: flex;
+        justify-content: space-around;
+        margin-top: $spacing-medium;
+        margin-bottom: $spacing-medium;
+    }
 }
