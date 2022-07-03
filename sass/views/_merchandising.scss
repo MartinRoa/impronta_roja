@@ -1,0 +1,52 @@
+#merchandising{
+    .title{
+        text-align: center;
+        margin-top: $spacing-medium;
+        margin-bottom: $spacing-medium;
+
+        .titleFormat{
+            font-size: $text-xlargue;
+            color: $primary;
+            padding-bottom: $spacing-xsmall;
+            text-align: center;
+        }
+
+        .boxTitle{
+            margin-top: $spacing-medium;
+            margin-bottom: $spacing-medium;
+
+            .textDecoration{
+                font-size: $text-xsmall;
+                align-items: center;
+            }
+        }
+    }
+
+    .tarjet__container{
+        display: flex;
+        justify-content: center;
+
+        .container__tarjet{
+            display: flex;
+            flex-direction: column;
+            padding: $spacing-xsmall;
+            align-items: center;
+
+            .textCenter{
+                text-align: center;
+                font-size: $text-xsmall;
+                padding-bottom: $spacing-xsmall;
+            }
+
+            .image__tarjet{
+                width: 24rem;
+                height: 29rem;
+                transition: transform .7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            }
+
+            .image__tarjet:hover{
+                transform: scale(1.04);
+            }
+        }
+    }
+}

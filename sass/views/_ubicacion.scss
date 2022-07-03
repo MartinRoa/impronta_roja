@@ -1,0 +1,46 @@
+#ubicacion{
+    .infoCard{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: $spacing-medium;
+
+        .infoCard-card1{
+            width: 50%;
+            text-align: center;
+        }
+
+        .title{
+            text-align: center;
+            margin-top: $spacing-medium;
+            margin-bottom: $spacing-medium;
+
+            .titleFormat{
+                font-size: $text-xlargue;
+                color: $primary;
+                padding-bottom: $spacing-xsmall;
+                text-align: center;
+            }
+
+            .textDecoration__info{
+                font-size: $text-xsmall;
+            }
+        }
+
+        .cover__img{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            .img__app{
+                padding-left: $spacing-medium;
+                animation-name: rotateMe;
+                animation-duration: 10s;
+                animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                animation-iteration-count: initial;
+                animation-delay: 2s;
+                animation-direction: alternate;
+            }
+        }
+    }
+}

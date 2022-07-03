@@ -1,0 +1,50 @@
+#registrate{
+
+    .textCenter{
+        text-align: center;
+        font-size: $text-xsmall;
+        padding-bottom: $spacing-xsmall;
+        
+            .title{
+                text-align: center;
+                margin-top: $spacing-medium;
+                margin-bottom: $spacing-medium;
+        
+                .titleFormat{
+                    font-size: $text-xlargue;
+                    color: $primary;
+                    padding-bottom: $spacing-xsmall;
+                    text-align: center;
+                }
+        
+                .boxTitle{
+                    margin-top: $spacing-medium;
+                    margin-bottom: $spacing-medium;
+        
+                    .textDecoration{
+                        font-size: $text-xsmall;
+                        align-items: center;
+                    }
+                }
+            }
+        
+            .subsubtitleFormat{
+                font-size: $text-small;
+                margin-top: $spacing-xsmall;
+                margin-bottom: $spacing-xsmall;
+        
+                .titleFormat2{
+                    color: $primary;
+                    background-color: rgba(0, 0, 0, 0.473);
+                    text-align: center;
+                }
+            }
+        
+            .titleFormat3{
+                font-size: var(--text-small);
+                color: #d6d6d6;
+                background-color: rgba(0, 0, 0, 0.473);
+                text-align: center;
+            }
+    }
+}

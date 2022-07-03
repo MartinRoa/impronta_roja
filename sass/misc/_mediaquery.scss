@@ -1,0 +1,61 @@
+@media screen and (max-width:1200px) {
+    .infoCard{
+        flex-direction: column;
+    }
+    .infoCard-card1{
+        padding-bottom: $spacing-small;
+    }
+    .tarjet__container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .infoCard-card1{
+        width: 50%;
+    }
+    .textDecoration__info{
+        font-size: $text-base;
+    }
+    .cover__img{
+        width: 100%;
+    }
+    .footerNav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .textCenter{
+        font-size: $text-base;
+    }
+    .image__tarjet{
+        width: 15rem;
+        height: 15rem;
+    }
+    .footerImages{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
