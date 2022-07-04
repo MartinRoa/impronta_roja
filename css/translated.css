@@ -81,15 +81,14 @@ ul {
 /* VIEWS */
 #home .title {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
   #home .title .titleFormat {
     font-size: 3.5rem;
     color: #db6476;
     padding-bottom: 1rem;
     text-align: center; }
   #home .title .boxTitle {
-    margin-top: 2rem;
     margin-bottom: 2rem; }
     #home .title .boxTitle .textDecoration {
       font-size: 1.5rem;
@@ -154,8 +153,7 @@ ul {
     padding: 1rem;
     align-items: center; }
     #home .tarjet__container .container__tarjet .cervezaRubia {
-      color: #b6d81d;
-      text-align: center; }
+      color: #b6d81d; }
     #home .tarjet__container .container__tarjet .subsubtitleFormat {
       font-size: 2rem;
       margin-top: 1rem;
@@ -168,6 +166,21 @@ ul {
       text-align: center;
       font-size: 1.5rem;
       padding-bottom: 1rem; }
+    #home .tarjet__container .container__tarjet .btn, #home .tarjet__container .container__tarjet .btn--aceptar, #home .tarjet__container .container__tarjet .btn--cancelar {
+      width: 150px;
+      padding: 10px 12px;
+      font-size: 18px;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      border: none; }
+    #home .tarjet__container .container__tarjet .btn--aceptar {
+      background-color: antiquewhite; }
+      #home .tarjet__container .container__tarjet .btn--aceptar:hover {
+        background-color: #f5c381; }
+    #home .tarjet__container .container__tarjet .btn--cancelar {
+      background-color: #eb4f71; }
+      #home .tarjet__container .container__tarjet .btn--cancelar:hover {
+        background-color: #ee1d4a; }
   #home .tarjet__container .container__tarjet {
     display: flex;
     flex-direction: column;

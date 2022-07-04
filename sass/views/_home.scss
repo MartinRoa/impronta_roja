@@ -4,8 +4,8 @@
 
 .title{
     text-align: center;
-    margin-top: $spacing-medium;
-    margin-bottom: $spacing-medium;
+    margin-top: $spacing-medium+2;
+    margin-bottom: $spacing-medium+2;
 
     .titleFormat{
         font-size: $text-xlargue;
@@ -14,7 +14,7 @@
         text-align: center;
     }
     .boxTitle{
-        margin-top: $spacing-medium;
+        margin-top: map-get($spacings, $spacing-medium);
         margin-bottom: $spacing-medium;
         
         .textDecoration{
@@ -106,7 +106,6 @@
 
         .cervezaRubia{
             color: $special-one;
-            text-align: center;
         }
 
         .subsubtitleFormat{
@@ -125,6 +124,30 @@
             text-align: center;
             font-size: $text-xsmall;
             padding-bottom: $spacing-xsmall;
+        }
+
+        .btn{
+            width: 150px;
+            padding: 10px 12px;
+            font-size: 18px;
+            @include margin(0.5rem, 0.5rem);
+            border: none;
+        }
+
+        .btn--aceptar{
+            @extend .btn;
+            background-color: antiquewhite;
+            &:hover{
+                background-color: rgb(245, 195, 129);
+            }
+        }
+
+        .btn--cancelar{
+            @extend .btn;
+            background-color: rgb(235, 79, 113);
+            &:hover{
+                background-color: rgb(238, 29, 74);
+            }
         }
 
     }

@@ -14,6 +14,13 @@
     $spacing-small: 1.5rem;
     $spacing-xsmall: 1rem;
 
+    $spacings:(
+        spacing-large: 5rem,
+        spacing-medium: 2rem,
+        spacing-small: 1.5rem,
+        spacing-xsmall: 1rem,
+    );
+
     /* Font-family */
     $font-principal: 'Poppins', sans-serif;
     $font-title: 'Roboto', sans-serif;
